@@ -1,0 +1,23 @@
+{
+  "name": "tests_unitaires",
+  "version": "1.0.0",
+  "description": "Projet de cours",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Nicolas Marin & Thomas Orard",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "nodemon": "^2.0.15"
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  }
+}
